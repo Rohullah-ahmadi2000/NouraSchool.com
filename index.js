@@ -36,7 +36,9 @@ document.querySelectorAll('form[action="https://formspree.io/f/xqaydpbw"]').forE
 
 function shownav(){
     navbar.style.display='block';
+    container.style.display='none'
 };
 function hidenav(){
     navbar.style.display='none'
+     container.style.display='block'
 }
