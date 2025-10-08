@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fa"dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teachers</title>
+    <link rel="stylesheet" href="ourteam.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <!-- large screen -->
+    <div class="container">
+        <div class="slide">
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">اسم استاد</div>
+                    <div class="des">این استاد چیکار ها کرده تجربه کاری و خیلی چیزای دیگه</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">hello2</div>
+                    <div class="des">this is Rohu ten years of exp</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">hello3</div>
+                    <div class="des">this is Rohu ten years of exp</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">hello4</div>
+                    <div class="des">this is Rohu ten years of exp</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">hello5</div>
+                    <div class="des">this is Rohu ten years of exp</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">hello6</div>
+                    <div class="des">this is Rohu ten years of exp</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">hello7</div>
+                    <div class="des">this is Rohu ten years of exp</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">hello8</div>
+                    <div class="des">this is Rohu ten years of exp</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(team.jpg);">
+                <div class="content">
+                    <div class="name">hello9</div>
+                    <div class="des">this is Rohu ten years of exp</div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="button">
+             <button class="next">nex</button>
+            <button class="prev">prev</button>
+           
+        </div>
+
+    </div>
+
+
+    <!-- small screen -->
+    <div class="small-screen">
+        <div class="container1" id="wellcome">
+            <div class="wellcome">
+                <img src="logo.png" alt="">
+                <h2>به بخش اساتید خوش امدید!</h2>
+                <button onclick="openmain()">hello</button>
+            </div>
+        </div>
+
+
+
+
+        <div class="main-content" id="main">
+            <nav id="nav">
+                <ul>
+                    <i class="fas fa-x" onclick="hidenav()"></i>
+                    <li><a href="main.html">خانه</a></li>
+                    <li><a href="#">پرسونل اداری</a></li>
+                    <li><a href="#">اساتید بخش ابندایه</a></li>
+                    <li><a href="#">اساتید بخش متوسطه</a></li>
+                    <li><a href="#">اساتید بخش عالی</a></li>
+                    <li><a href="#">اساتید بخش کورس</a></li>
+                </ul>
+            </nav>
+            <i class="fas fa-bars" onclick="shownav()" style="margin:10px;font-size: 30px;"></i>
+
+
+            <!-- one -->
+
+            <div class="info" id="info">
+                <div class="teacher" onclick="fulform()" id="teacher">
+                    <h3>teacher name</h3>
+                    <p class="intro" id="intro">i have a short information about the teacher that you want </p>
+                    <p class="full" id="full">i have the most important infromation about teacher that can be usefull
+                        for every other person who wants to be a good view of every person and
+                        they are not really wanted by the people who have never been appointed
+                        for them to see the meaning full of their life</p>
+                </div>
+                <img id="img" src="team.jpg" alt="">
+                <i class="fas fa-chevron-up" id="up" onclick="miniform()"
+                    style="width:100%;text-align: center;font-size: 20px;padding: 10px;z-index: 1000;display: none;"></i>
+            </div>
+
+
+            <!-- two -->
+            <div class="info" id="info1">
+                <div class="teacher" onclick="fulform1()" id="teacher">
+                    <h3>teacher name</h3>
+                    <p class="intro" id="intro1">i have a short information about the teacher that you want </p>
+                    <p class="full" id="full1">i have the most important infromation about teacher that can be usefull
+                        for every other person who wants to be a good view of every person and
+                        they are not really wanted by the people who have never been appointed
+                        for them to see the meaning full of their life</p>
+                </div>
+                <img id="img1" src="team.jpg" alt="">
+                <i class="fas fa-chevron-up" id="up1" onclick="miniform1()"
+                    style="width:100%;text-align: center;font-size: 20px;padding: 10px;z-index: 1000;display: none;"></i>
+            </div>
+            <!-- three -->
+            <div class="info" id="info2">
+                <div class="teacher" onclick="fulform2()" id="teacher">
+                    <h3>teacher name</h3>
+                    <p class="intro" id="intro2">i have a short information about the teacher that you want </p>
+                    <p class="full" id="full2">i have the most important infromation about teacher that can be usefull
+                        for every other person who wants to be a good view of every person and
+                        they are not really wanted by the people who have never been appointed
+                        for them to see the meaning full of their life</p>
+                </div>
+                <img id="img2" src="team.jpg" alt="">
+                <i class="fas fa-chevron-up" id="up2" onclick="miniform2()"
+                    style="width:100%;text-align: center;font-size: 20px;padding: 10px;z-index: 1000;display: none;"></i>
+            </div>
+            <!-- four -->
+            <div class="info" id="info3">
+                <div class="teacher" onclick="fulform3()" id="teacher">
+                    <h3>teacher name</h3>
+                    <p class="intro" id="intro3">i have a short information about the teacher that you want </p>
+                    <p class="full" id="full3">i have the most important infromation about teacher that can be usefull
+                        for every other person who wants to be a good view of every person and
+                        they are not really wanted by the people who have never been appointed
+                        for them to see the meaning full of their life</p>
+                </div>
+                <img id="img3" src="team.jpg" alt="">
+                <i class="fas fa-chevron-up" id="up3" onclick="miniform3()"
+                    style="width:100%;text-align: center;font-size: 20px;padding: 10px;z-index: 1000;display: none;"></i>
+            </div>
+            <!-- five -->
+            <div class="info" id="info4">
+                <div class="teacher" onclick="fulform4()" id="teacher">
+                    <h3>teacher name</h3>
+                    <p class="intro" id="intro4">i have a short information about the teacher that you want </p>
+                    <p class="full" id="full4">i have the most important infromation about teacher that can be usefull
+                        for every other person who wants to be a good view of every person and
+                        they are not really wanted by the people who have never been appointed
+                        for them to see the meaning full of their life</p>
+                </div>
+                <img id="img4" src="team.jpg" alt="">
+                <i class="fas fa-chevron-up" id="up4" onclick="miniform4()"
+                    style="width:100%;text-align: center;font-size: 20px;padding: 10px;z-index: 1000;display: none;"></i>
+            </div>
+            <!-- six -->
+            <div class="info" id="info5">
+                <div class="teacher" onclick="fulform5()" id="teacher">
+                    <h3>teacher name</h3>
+                    <p class="intro" id="intro5">i have a short information about the teacher that you want </p>
+                    <p class="full" id="full5">i have the most important infromation about teacher that can be usefull
+                        for every other person who wants to be a good view of every person and
+                        they are not really wanted by the people who have never been appointed
+                        for them to see the meaning full of their life</p>
+                </div>
+                <img id="img5" src="team.jpg" alt="">
+                <i class="fas fa-chevron-up" id="up5" onclick="miniform5()"
+                    style="width:100%;text-align: center;font-size: 20px;padding: 10px;z-index: 1000;display: none;"></i>
+            </div>
+            <!-- seven -->
+            <div class="info" id="info6">
+                <div class="teacher" onclick="fulform6()" id="teacher">
+                    <h3>teacher name</h3>
+                    <p class="intro" id="intro6">i have a short information about the teacher that you want </p>
+                    <p class="full" id="full6">i have the most important infromation about teacher that can be usefull
+                        for every other person who wants to be a good view of every person and
+                        they are not really wanted by the people who have never been appointed
+                        for them to see the meaning full of their life</p>
+                </div>
+                <img id="img6" src="team.jpg" alt="">
+                <i class="fas fa-chevron-up" id="up6" onclick="miniform6()"
+                    style="width:100%;text-align: center;font-size: 20px;padding: 10px;z-index: 1000;display: none;"></i>
+            </div>
+            <!-- eight -->
+            <div class="info" id="info7">
+                <div class="teacher" onclick="fulform7()" id="teacher">
+                    <h3>teacher name</h3>
+                    <p class="intro" id="intro7">i have a short information about the teacher that you want </p>
+                    <p class="full" id="full7">i have the most important infromation about teacher that can be usefull
+                        for every other person who wants to be a good view of every person and
+                        they are not really wanted by the people who have never been appointed
+                        for them to see the meaning full of their life</p>
+                </div>
+                <img id="img7" src="team.jpg" alt="">
+                <i class="fas fa-chevron-up" id="up7" onclick="miniform7()"
+                    style="width:100%;text-align: center;font-size: 20px;padding: 10px;z-index: 1000;display: none;"></i>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script>
+        let next = document.querySelector('.next');
+        let prev = document.querySelector('.prev');
+        next.addEventListener('click', function () {
+            let items = document.querySelectorAll('.item');
+            let slide = document.querySelector('.slide');
+            if (items.length > 0) {
+                slide.appendChild(items[0]);
+            }
+        });
+        prev.addEventListener('click', function () {
+            let items = document.querySelectorAll('.item');
+            let slide = document.querySelector('.slide');
+            if (items.length > 0) {
+                slide.prepend(items[items.length - 1]);
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+        <script>
+            function openmain() {
+                main.style.display = 'block'
+                wellcome.style.display = 'none'
+            }
+        </script>
+
+        <script>
+            function shownav() {
+                nav.style.display = "block"
+            }
+            function hidenav() {
+                nav.style.display = "none"
+            }
+        </script>
+        <script>
+            function showinfo() {
+                intro.style.display = 'none'
+                full.style.display = 'block'
+                show.style.display = 'none'
+                hide.style.display = 'block'
+            }
+        </script>
+
+
+        <script>
+            function show() {
+                show1.style = 'transform:scale(1.4)translate(-120px,120px)'
+            }
+        </script>
+
+        <script>
+            function fulform() {
+
+                full.style.display = 'block'
+                intro.style.display = 'none'
+                info.style = 'display:block;height:auto;'
+                img.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up.style.display = 'block'
+            }
+            function fulform1() {
+
+                full1.style.display = 'block'
+                intro1.style.display = 'none'
+                info1.style = 'display:block;height:auto;'
+                img1.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up1.style.display = 'block'
+            }
+            function fulform2() {
+
+                full2.style.display = 'block'
+                intro2.style.display = 'none'
+                info2.style = 'display:block;height:auto;'
+                img2.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up2.style.display = 'block'
+            }
+            function fulform3() {
+
+                full3.style.display = 'block'
+                intro3.style.display = 'none'
+                info3.style = 'display:block;height:auto;'
+                img3.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up3.style.display = 'block'
+            }
+            function fulform4() {
+
+                full4.style.display = 'block'
+                intro4.style.display = 'none'
+                info4.style = 'display:block;height:auto;'
+                img4.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up4.style.display = 'block'
+            }
+            function fulform5() {
+
+                full5.style.display = 'block'
+                intro5.style.display = 'none'
+                info5.style = 'display:block;height:auto;'
+                img5.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up5.style.display = 'block'
+            }
+            function fulform6() {
+
+                full6.style.display = 'block'
+                intro6.style.display = 'none'
+                info6.style = 'display:block;height:auto;'
+                img6.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up6.style.display = 'block'
+            }
+            function fulform7() {
+
+                full7.style.display = 'block'
+                intro7.style.display = 'none'
+                info7.style = 'display:block;height:auto;'
+                img7.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up7.style.display = 'block'
+            }
+            function fulform8() {
+
+                full8.style.display = 'block'
+                intro8.style.display = 'none'
+                info8.style = 'display:block;height:auto;'
+                img8.style = 'width:100%;height:300px;border-radius:0%;padding:10px;'
+                up8.style.display = 'block'
+            }
+            function miniform() {
+
+                full.style.display = 'none'
+                intro.style.display = 'block'
+                info.style = 'display:flex;height:auto;'
+                img.style = 'width:100px;height:100px;border-radius:999px;'
+                up.style.display = 'none'
+            }
+
+            function miniform1() {
+
+                full1.style.display = 'none'
+                intro1.style.display = 'block'
+                info1.style = 'display:flex;height:auto;'
+                img1.style = 'width:100px;height:100px;border-radius:999px;'
+                up1.style.display = 'none'
+            }
+            function miniform2() {
+
+                full2.style.display = 'none'
+                intro2.style.display = 'block'
+                info2.style = 'display:flex;height:auto;'
+                img2.style = 'width:100px;height:100px;border-radius:999px;'
+                up2.style.display = 'none'
+            }
+            function miniform3() {
+
+                full3.style.display = 'none'
+                intro3.style.display = 'block'
+                info3.style = 'display:flex;height:auto;'
+                img3.style = 'width:100px;height:100px;border-radius:999px;'
+                up3.style.display = 'none'
+            }
+            function miniform4() {
+
+                full4.style.display = 'none'
+                intro4.style.display = 'block'
+                info4.style = 'display:flex;height:auto;'
+                img4.style = 'width:100px;height:100px;border-radius:999px;'
+                up4.style.display = 'none'
+            }
+            function miniform5() {
+
+                full5.style.display = 'none'
+                intro5.style.display = 'block'
+                info5.style = 'display:flex;height:auto;'
+                img5.style = 'width:100px;height:100px;border-radius:999px;'
+                up5.style.display = 'none'
+            }
+            function miniform6() {
+
+                full6.style.display = 'none'
+                intro6.style.display = 'block'
+                info6.style = 'display:flex;height:auto;'
+                img6.style = 'width:100px;height:100px;border-radius:999px;'
+                up6.style.display = 'none'
+            }
+            function miniform7() {
+
+                full7.style.display = 'none'
+                intro7.style.display = 'block'
+                info7.style = 'display:flex;height:auto;'
+                img7.style = 'width:100px;height:100px;border-radius:999px;'
+                up7.style.display = 'none'
+            }
+            function miniform8() {
+
+                full8.style.display = 'none'
+                intro8.style.display = 'block'
+                info8.style = 'display:flex;height:auto;'
+                img8.style = 'width:100px;height:100px;border-radius:999px;'
+                up8.style.display = 'none'
+            }
+
+        </script>
+
+</body>
+
+</html>
