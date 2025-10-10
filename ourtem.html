@@ -14,105 +14,6 @@
 <body>
 
 
-    <!-- large screen -->
-    <div class="container">
-        <div class="slide">
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">اسم استاد</div>
-                    <div class="des">این استاد چیکار ها کرده تجربه کاری و خیلی چیزای دیگه</div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">hello2</div>
-                    <div class="des">this is Rohu ten years of exp</div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">hello3</div>
-                    <div class="des">this is Rohu ten years of exp</div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">hello4</div>
-                    <div class="des">this is Rohu ten years of exp</div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">hello5</div>
-                    <div class="des">this is Rohu ten years of exp</div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">hello6</div>
-                    <div class="des">this is Rohu ten years of exp</div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">hello7</div>
-                    <div class="des">this is Rohu ten years of exp</div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">hello8</div>
-                    <div class="des">this is Rohu ten years of exp</div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(team.jpg);">
-                <div class="content">
-                    <div class="name">hello9</div>
-                    <div class="des">this is Rohu ten years of exp</div>
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="button">
-             <button class="next">nex</button>
-            <button class="prev">prev</button>
-           
-        </div>
-
-    </div>
-
-
-    <!-- small screen -->
-    <div class="small-screen">
-        <div class="container1" id="wellcome">
-            <div class="wellcome">
-                <img src="logo.png" alt="">
-                <h2>به بخش اساتید خوش امدید!</h2>
-                <button onclick="openmain()">hello</button>
-            </div>
-        </div>
-
-
-
-
-        <div class="main-content" id="main">
-            <nav id="nav">
-                <ul>
-                    <i class="fas fa-x" onclick="hidenav()"></i>
-                    <li><a href="main.html">خانه</a></li>
-                    <li><a href="#">پرسونل اداری</a></li>
-                    <li><a href="#">اساتید بخش ابندایه</a></li>
-                    <li><a href="#">اساتید بخش متوسطه</a></li>
-                    <li><a href="#">اساتید بخش عالی</a></li>
-                    <li><a href="#">اساتید بخش کورس</a></li>
-                </ul>
-            </nav>
-            <i class="fas fa-bars" onclick="shownav()" style="margin:10px;font-size: 30px;"></i>
-
-
-            <!-- one -->
 
             <div class="info" id="info">
                 <div class="teacher" onclick="fulform()" id="teacher">
@@ -244,24 +145,6 @@
 
 
 
-    <script>
-        let next = document.querySelector('.next');
-        let prev = document.querySelector('.prev');
-        next.addEventListener('click', function () {
-            let items = document.querySelectorAll('.item');
-            let slide = document.querySelector('.slide');
-            if (items.length > 0) {
-                slide.appendChild(items[0]);
-            }
-        });
-        prev.addEventListener('click', function () {
-            let items = document.querySelectorAll('.item');
-            let slide = document.querySelector('.slide');
-            if (items.length > 0) {
-                slide.prepend(items[items.length - 1]);
-            }
-        });
-    </script>
 
 
 
@@ -270,37 +153,6 @@
 
 
 
-
-        <script>
-            function openmain() {
-                main.style.display = 'block'
-                wellcome.style.display = 'none'
-            }
-        </script>
-
-        <script>
-            function shownav() {
-                nav.style.display = "block"
-            }
-            function hidenav() {
-                nav.style.display = "none"
-            }
-        </script>
-        <script>
-            function showinfo() {
-                intro.style.display = 'none'
-                full.style.display = 'block'
-                show.style.display = 'none'
-                hide.style.display = 'block'
-            }
-        </script>
-
-
-        <script>
-            function show() {
-                show1.style = 'transform:scale(1.4)translate(-120px,120px)'
-            }
-        </script>
 
         <script>
             function fulform() {

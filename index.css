@@ -861,6 +861,9 @@ textarea {
 .mini-info div i {
     margin-left: 10px;
 }
+.mini-info h4{
+    padding-left:10px;
+}
 
 
 /* resposive code */
